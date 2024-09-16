@@ -1,0 +1,390 @@
+
+#imgid{
+border-radius: 360px;
+
+
+}
+#imgid:hover{
+    transform: scale(1.1); 
+}
+#g{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    
+    
+}
+
+#v1{
+    margin-top: 100px;
+    text-align: center;
+}
+    
+.site-main .site-banner .site-title h1{
+    padding-top: 180px;
+    font-weight: 500;
+}
+
+#imgi{
+    margin-top: 5vh;
+}
+
+
+#fixed{
+    
+    padding-top: 10px;
+    
+}
+#fixeds{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-top: 120px;
+}
+#b{
+    
+   margin-left: 400px;
+   height: 10vh;
+}
+#ba{
+ margin-left: 7;
+}
+#back{
+ background-image: url(img.png);
+}
+#pad{
+    padding: 20px 20px 20px 20px;
+}
+
+#no{
+    text-decoration: none;
+}
+#v{
+    display: grid;
+    justify-content: center;
+}
+#m{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+#background{
+    background-image: url(blog5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#wid{
+    width: 200px;
+}
+#Text{
+   text-align: center;
+   display: grid;
+   justify-content: center;
+}
+#glow:hover{
+    transform: scale(1.1);
+
+}
+#glow1{
+    padding-top: 20px;
+}
+#glow1:hover{
+    transform: scale(1.1);
+}
+
+#padding{
+    padding-top: 10vh;
+    width: 80rem;
+    border-radius: 360px;
+}   
+#pa{
+    padding: 20px 10px 35px 10px ;
+    column-gap: 10px;
+    justify-content: center;
+    
+}
+#back{
+    background-image: url(img4.png);
+}
+
+#ab{
+    position: fixed;
+}
+#sho_w{
+    display: none;
+}
+#bbb{
+    display: none;
+}
+
+.immm{
+    background-image: url(img4.png);  
+}
+#cardch{
+    display: none;
+}
+#martop{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align:center;
+    width: 360px;
+}
+#cardContainer{
+    padding-left: 10px;
+    padding-right: 20px;
+    width: 360px;
+
+}
+.post{
+    padding-bottom: 50px;
+}
+
+#fff{
+   display: none;
+   width: 100px;
+ }   
+
+divv{
+    margin-top: 5vh;
+    padding-top: 30px;
+
+
+}
+#delete-task{
+    display: none;
+}
+#wid{
+    width: 360px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: none;
+}
+#PO-ST{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#bbb{
+    text-align: center;
+    
+    
+}
+#gold{
+ padding-bottom: 30px;
+}
+#hhh{
+    padding-bottom: 50px;
+}
+#padlite{
+    padding-top: 10px;
+    margin-top: 15vh;
+}
+#hide3{
+    display: none;
+    width: 100px;
+}
+#hide4{
+    display: none;
+    width: 100px;
+}
+#wi{
+    width: 360px;
+}
+#cmm{
+    display: none;
+    width: 360px;
+    
+}
+#Texts{
+    text-align: center;
+    padding-top: 40px;
+    
+    padding-bottom: 20px;
+}
+#pic{
+    width:320px;
+}
+.card:hover{
+ transform: scale(1.1);
+}
+#margin{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#pi{
+    width: 320px;
+    text-align: center;
+}
+#pe{
+    width: 320px;
+    text-align: center;
+}
+#pe{
+    display: none;
+}
+#modifys{
+    display: none;
+}
+.none{
+    display: none;
+}
+#hide{
+    display: none;
+    
+    background-color: antiquewhite;
+}
+#hide2{
+ display:  none;
+}
+
+#top-pa{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+#con{
+    background-image: url(bgimg.jpg);
+  
+    
+}
+#pdg{
+    padding-top: 10px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+
+}
+#sho_w{
+    width: 300px;
+}
+#ll{
+   background-image: url(blog4.jpg); 
+   margin-top:5px;
+}
+#ff{
+    width: 100px;
+}
+#f{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    row-gap: 6px;
+
+}
+#c{
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+
+
+
+.ppd{
+    
+    padding-top: 100px;
+}
+.ppdd{
+    padding-top: 30px;
+}
+
+#ca{
+    width: 300px;
+    text-align: center;
+    height: 9vh;
+    
+}
+
+#modify{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+#modifys{
+    display: none;
+}
+
+#bb{
+    border-style: dotted;
+    padding: 10px 10px 10px 10px;
+}
+#bb:hover{
+    transform: scale(1.1);
+}
+#la{
+    width: 360px;
+
+
+}
+
+#ll{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#gap{
+    column-gap: 150px;
+    row-gap: 50px;
+}
+#wa{
+    padding-top: 10px;
+    padding-bottom: 30px;
+   
+}
+#w{
+    width: 100px;
+    background-color: antiquewhite;
+}
+#top{
+    padding-top: 40px;
+}
+#al{
+    text-align: center;
+    padding-top: 10px;
+}
+form h3{
+    color: rgb(55, 53, 50);
+    font-weight: 800;
+    margin-bottom: 20px;
+
+}
+
+form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 10px;
+    border-style: none;
+    background-color: white;
+    font-size: 16px;
+
+}
+form button{
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    
+    outline: none;
+    cursor: pointer;
+    width: 325px;
+    
+    border-radius: 30px;
+    
+}
+#T{
+    border-radius: 50px;
+   
+    
+}
+#Textv{
+    text-align: center;
+    display: grid;
+    justify-content: center;  
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+nav li a:hover,
+nav li a.nav-link{
+    color: rgb(28, 161, 155);
+}
