@@ -47,6 +47,22 @@ border-radius: 360px;
    margin-left: 400px;
    height: 10vh;
 }
+#projects{
+    background-image: url(back6.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+#abouts{
+    background-image: url(back7.jpg);  
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+#contacts{
+    background-image: url(back5.jpg);  
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
 #ba{
  margin-left: 7;
 }
@@ -342,32 +358,24 @@ divv{
     text-align: center;
     padding-top: 10px;
 }
-form h3{
-    color: rgb(55, 53, 50);
-    font-weight: 800;
-    margin-bottom: 20px;
-
-}
 
 form input, form textarea{
     border: 0;
-    margin: 10px 0;
-    padding: 10px;
+     padding: 10px;
     border-style: none;
     background-color: white;
     font-size: 16px;
 
 }
 form button{
-    padding: 10px;
+    padding: 5px;
     color: white;
     font-size: 18px;
-    
     outline: none;
     cursor: pointer;
-    width: 325px;
+    width: 100px;
     
-    border-radius: 30px;
+    
     
 }
 #T{

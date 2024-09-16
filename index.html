@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
@@ -93,24 +95,23 @@
 
               <div class=" d-grid justify-content-center text-center " id="Text">
                 <div class="d-grid justify-content-center">
-                  <h3 id="glow1"><strong>About Me</strong></h3>
+                  
 
                   <div class='m-3'>
 
                     <div class='d-flex justify-content-center align-items-center vh-3 '>
 
-                      <div class='p-3 rounded  border bg-white '>
+                      <div class='p-3 rounded  border' id="abouts">
+                        <h3 id="glow1"><strong>About Me</strong></h3>
+                        <h5 class='text-center p-3'>
+                          Motivated Junior Full-Stack Developer with 1 year of self-taught experience in HTML, CSS, and
+                          JavaScript, and a solid foundation in ReactJS and Node.js. Seeking an opportunity to contribute to
+                          innovative projects while continuing to develop my skills in full-stack development within a
+                          collaborative and growth-oriented environment.
+                        
+                          
 
-                        <h6 class='text-center'>
-                          I recently graduated with a Bachelor's degree in Computer Application from C.Kandaswamy Naidu
-                          College
-                          under Madras Unversity.Throughout my academic journey.I focused on Frontend developement So i
-                          learned html, css,
-                          javascript.I am a fresh face in frontend development.I'm eager to apply my
-                          knowledge and skill in a professional setting.And learn, grow and contribute positively
-                          to any team I join.
-
-                        </h6>
+                        </h5>
                         <div class="p-3 m-3">
                           <div class=" d-grid justify-content-center">
                             <h3><strong>Technical Skills</strong></h3>
@@ -199,9 +200,10 @@
         <div class='m-3'>
 
           <div class='d-flex justify-content-center align-items-center vh-3 '>
-            <div class='p-3 rounded  border '>
+            <div class='p-3 rounded  border ' id="projects">
               
-              <video autoplay loop muted plays-inline  controls width = "900px" class="img-fluid" id="myvideo">
+              <video autoplay loop muted plays-inline  controls width = "900px" class="img-fluid p-5" 
+              id="myvideo">
                 <source src="Employee Management System.mp4" type= "video/mp4 ">
               </video>
               <div class="p-3 text-center">
@@ -242,44 +244,47 @@
 
 
 
-        <section id="contact">
-          <h3 class="text-black text-center"><strong>Contact Me</strong></h3>
-          <div class='m-3'> 
+        <section id="contact" class="p-3">
+          <h4 class="text-black text-center"><strong>Contact Me</strong></h4>
+        
         <div class='m-3'>
 
           <div class='d-flex justify-content-center align-items-center vh-3 '>
 
-            <div class='p-3 rounded border '>
+            <div class='p-3 rounded border' id="contacts">
 
 
               <form action="https://api.web3forms.com/submit" method="POST">
                 
-                <div class="mb-3">
+                <div class="mb-3  justify-content-center">
                   <input type="hidden" 
                   name="access_key" 
                   value="dea88c5f-ea30-4bd0-9a35-263e01070685">
                 </div>
-                <div class="mb-1 ">
-                   <label>Name : </label>
-                  <input type="text" name="name" placeholder="Your Name" 
-                  class="Contact-inputs" id="" required>
-                </div>
-                <div class="mb-3">
-                   <label>Email : </label>
-                  <input type="email" name="email" placeholder="Email id" id="" required>
-                </div>
-                <div class="mb-3">
-                   <label>Phone: </label>
-                  <input type="text" name="phone no" placeholder="Phone no." id="" required>
-                </div>
-                <div class="mb-3">
-
-                  <textarea name="message" cols="40" rows="4" placeholder="How can we help you?"></textarea>
-                </div>
-
-
                 <div class="mb-3 justify-content-center">
-                  <button class="bg-body-tertiary text-black" type="submit">Send Me</button> 
+                  <div class="d-flex justify-content-center">
+                   
+                  <input type="text" name="name" placeholder="Enter Your Name" 
+                  class="Contact-inputs" id="" required>
+                </div></div>
+                <div class="mb-3">
+                  <div class="d-flex justify-content-center">
+                   
+                  <input type="email" name="email" placeholder="Enter Your Email " id="" required>
+                </div></div>
+                <div class="mb-3">
+                   <div class="d-flex justify-content-center">
+                  <input type="text" name="phone no" placeholder=" Enter Phone no." id="" required>
+                </div></div>
+                <div class="mb-3">
+                  <div class="d-flex justify-content-center">
+                  <textarea name="message" cols="23" rows="4" placeholder="How can we help you?"></textarea>
+                </div></fdiv>
+
+
+                <div class="mb-2 p-3">
+                  <div class="d-flex justify-content-center">
+                  <button class="bg-body-tertiary text-black" type="submit">Send Me</button> </div>
                 </div>
                   
                 
@@ -314,10 +319,22 @@
 
 
 
-  <footer class="container-fluid d-grid justify-content-center">
+  <footer class="container-fluid d-grid justify-content-center ">
     <div id="fixed">
-      <a href="https://github.com/akashrgg" alt="Git" id="no"> <img src="Git.jpg" alt="image" width="50px"
-          id="imgid"></a>
+
+
+      <div class='p-3 rounded '>
+        <span class="bi bi-envelope p-3">akashzzh146@gmail.com</span>
+        <span class="bi bi-whatsapp p-3" > 8608841928</span>
+      <a href="https://github.com/akashrgg" alt="Git" id="no"> <img src="Git.jpg" alt="image" width="40px"
+          id="imgid" class="p-10"></a>
+       
+
+     
+      </div>
+
+
+    </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
