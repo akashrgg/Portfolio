@@ -214,8 +214,8 @@ border-radius: 360px;
     border-radius: 50%;
     position: relative;
     background: rgb(11, 227, 255);
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     overflow: hidden;   
 }
 .martops::before{
@@ -248,7 +248,7 @@ border-radius: 360px;
 }
 .contents{
     position: absolute;
-    inset: 30px;
+    inset: 15px;
     border: 6px solid #040927;
     z-index: 3;
     border-radius: 50%;
@@ -267,7 +267,7 @@ border-radius: 360px;
 }
 
 #btncolor{
-    background: rgb(11, 227, 255);
+    background:  #070a1c;
 }
 
 #cardContainer{
