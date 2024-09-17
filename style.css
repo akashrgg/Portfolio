@@ -1,8 +1,7 @@
 
 #imgid{
+
 border-radius: 360px;
-
-
 
 }
 #imgid:hover{
@@ -154,6 +153,13 @@ border-radius: 360px;
     text-align:center;
     width: 360px;
 }
+.martop{
+    border-radius: 360px;
+    background-color: rgb(166, 231, 233);
+    width: 300px;
+}
+
+
 #cardContainer{
     padding-left: 10px;
     padding-right: 20px;
@@ -308,7 +314,7 @@ divv{
     padding-top: 100px;
 }
 .ppdd{
-    padding-top: 30px;
+    padding-top: 60px;
 }
 
 #ca{
