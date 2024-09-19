@@ -94,9 +94,9 @@ border-radius: 360px;
 
 }
 #background{
-    background-image: url(blog5.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: linear-gradient(
+        45deg, #FF0000, #FF7300, #FFFB00, #48FF00, #00FFD5,
+        #002BFF, #FF00C8, #FF0000);
 }
 #wid{
     width: 200px;
@@ -157,7 +157,10 @@ border-radius: 360px;
 .martop{
     border-radius: 50%;
     position: relative;
-    background: rgb(4, 28, 31);
+    
+    background: linear-gradient(
+        45deg, #FF0000,
+        #002BFF, #FF00C8);
     width: 300px;
     height: 300px;
     overflow: hidden;
@@ -188,7 +191,10 @@ border-radius: 360px;
     content: "";
     position: absolute;
     inset: 6px;
-    background: #5ed7f5;
+    background: linear-gradient(
+        45deg, #FF0000,
+        #002BFF, #FF00C8);
+    
     border-radius: 50%;
     z-index: 1;
 }
@@ -200,7 +206,7 @@ border-radius: 360px;
   
 .content{
     position: absolute;
-    inset: 30px;
+    inset: 15px;
     border: 6px solid #070a1c;
     z-index: 3;
     border-radius: 50%;
@@ -220,7 +226,9 @@ border-radius: 360px;
 .martops{
     border-radius: 50%;
     position: relative;
-    background: rgb(2, 23, 26);
+    background: linear-gradient(
+        45deg, #FF0000,
+        #002BFF, #FF00C8);
     width: 90px;
     height: 90px;
     overflow: hidden;   
@@ -249,7 +257,9 @@ border-radius: 360px;
     content: "";
     position: absolute;
     inset: 7px;
-    background: #0c9cc0;
+    background: linear-gradient(
+        45deg,
+        #002BFF, #FF00C8);
     border-radius: 50%;
     z-index: 1;
 }
@@ -397,6 +407,33 @@ border-radius: 360px;
     font-weight: bold;
 }
 
+.aboutsBorde::before{
+    content: "";
+    background: linear-gradient(
+        45deg, #FF0000, #FF7300, #FFFB00, #48FF00, #00FFD5,
+        #002BFF, #FF00C8, #FF0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 100%;
+    z-index: -1;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    filter: blur(8px);
+    animation: glowing 100s linear infinite;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    opacity: 1;
+    
+}
+
+@keyframes glowing
+ {
+    0% {background-position: 0 0;}
+    50% {background-position: 400% 0;}
+    100% {background-position: 0 0;}
+}
 
 
 
@@ -478,9 +515,41 @@ divv{
 #pic{
     width:320px;
 }
-.card:hover{
- transform: scale(1.1);
+
+@property --angle{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inheerits: false;
 }
+.card::after, .card::before{
+    
+    content:"" ;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: conic-gradient(red, blue, green, white, black, orange);
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding:3px;
+    border-radius: 10px;
+    animation: 3s spin linear infinite;
+
+}
+.card::before{
+    filter: blur(1.5rem);
+    opacity: 0.5;
+}
+@keyframes spin {
+    from{
+        --angle:0deg
+    }
+    to{
+        --angle:360deg;
+    }
+}
+
 #margin{
     margin-top: 50px;
     margin-bottom: 50px;
