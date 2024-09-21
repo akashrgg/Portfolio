@@ -67,7 +67,7 @@ border-radius: 360px;
     background-size: cover;
 }  
 #contacts{
-    background-image: url(back5.jpg);  
+    background-image: url(dark1.jpg);  
     background-repeat: no-repeat;
     background-size: cover; 
 }
@@ -97,6 +97,10 @@ border-radius: 360px;
     background: linear-gradient(
         45deg, #FF0000, #FF7300, #FFFB00, #48FF00, #00FFD5,
         #002BFF, #FF00C8, #FF0000);
+        background-image: url(back5.jpg);
+         background-repeat: no-repeat;
+           background-size: cover; 
+
 }
 #wid{
     width: 200px;
@@ -158,9 +162,10 @@ border-radius: 360px;
     
     position: relative;
     border-radius: 50%;
-    background: linear-gradient(
-        45deg, #FF0000,
-        #002BFF, #FF00C8);
+    
+        background: linear-gradient(
+            45deg, #0ba9da,
+            #15cbd8, #e5e8eb);
     width: 300px;
     height: 300px;
     overflow: hidden;
@@ -169,7 +174,7 @@ border-radius: 360px;
     content: "";
     position: absolute;
     inset: -10px 140px;
-    background: linear-gradient(315deg, #4ff039, #d400d4);
+    background: linear-gradient(315deg, #5f055f, #150346);
     transition: 0.5s;
     animation: animate 4s linear infinite;
 
@@ -192,8 +197,8 @@ border-radius: 360px;
     position: absolute;
     inset: 6px;
     background: linear-gradient(
-        45deg, #FF0000,
-        #002BFF, #FF00C8);
+        45deg, #0ba9da,
+        #15cbd8, #e5e8eb);
     
     border-radius: 50%;
     z-index: 1;
@@ -227,8 +232,8 @@ border-radius: 360px;
     border-radius: 50%;
     position: relative;
     background: linear-gradient(
-        45deg, #FF0000,
-        #002BFF, #FF00C8);
+        45deg, #0ba9da,
+        #15cbd8, #e5e8eb);
     width: 90px;
     height: 90px;
     overflow: hidden;   
@@ -237,7 +242,7 @@ border-radius: 360px;
     content: "";
     position: absolute;
     inset: -10px 40px;
-    background: linear-gradient(315deg, #9bac04, #f75b34);
+    background: linear-gradient(315deg, #252717, #221511);
     transition: 0.5s;
     animation: animate 4s linear infinite;
 }  
@@ -258,8 +263,8 @@ border-radius: 360px;
     position: absolute;
     inset: 7px;
     background: linear-gradient(
-        45deg,
-        #002BFF, #FF00C8);
+        45deg, #d1e2e7,
+        #15cbd8, #fdfdfd);
     border-radius: 50%;
     z-index: 1;
 }
@@ -532,7 +537,8 @@ divv{
     position: absolute;
     height: 100%;
     width: 100%;
-    background-image: conic-gradient(red, blue, green, white, black, orange);
+    background-image: conic-gradient( black, black);
+
     top: 50%;
     left: 50%;
     translate: -50% -50%;
@@ -724,10 +730,12 @@ form button{
 
 nav li a:hover,
 nav li a.nav-link{
-    color: rgb(28, 161, 155);
+    color: rgb(58, 206, 206);
 }
 
-
+nav li a.nav-link:hover{
+    color: white;
+}
 
     @keyframes moveText {
       0% {
@@ -876,5 +884,16 @@ nav li a.nav-link{
         color: #c7320c;
         
 }
+.txtcl{
+    color: white;
+}
+
+.textsky{
+    color: #36aecc;  
+}
+.txtsk{
+    background-color: #4dc8e7;;
+}
+#navbarText{
     
- 
+}
