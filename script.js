@@ -246,7 +246,7 @@ window.onscroll = () =>{
 
     // Function to check if an element is in the viewport
      // Function to check if an element is in the viewport
-     
+
   function isInViewport(element) {
     const rect = element.getBoundingClientRect();
     return rect.top <= window.innerHeight - 100 && rect.bottom >= 0;
@@ -266,3 +266,19 @@ window.onscroll = () =>{
     window.addEventListener('scroll', handleScroll);
     window.addEventListener('load', handleScroll);  // Trigger visibility check on page load
   
+
+    const observer = new IntersectionObserver((entries) =>{
+      entries.forEach((entry) =>{
+        console.log(entry)
+        if (entry.isIntersecting)
+          {
+            entry.target.classList.add('show'); 
+        }else{
+          entry.target.classList.remove('show');
+        }
+      })
+    }) 
+
+    const hiddenElements = document.querySelectorAll('.hidden');
+    hiddenElements.forEach((el) => observer(el));
+     

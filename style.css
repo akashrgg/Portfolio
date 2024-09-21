@@ -1,4 +1,4 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap");
 #imgid{
 
 border-radius: 360px;
@@ -871,4 +871,10 @@ nav li a.nav-link{
             opacity: 1;
         }
     }
+
+    .juncol{
+        color: #c7320c;
+        
+}
     
+ 
