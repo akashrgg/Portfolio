@@ -826,7 +826,7 @@ nav li a.nav-link{
     }
     .part-5{
         animation: part5 1s ease forwards;
-        animation-delay: 1s;
+        animation-delay: 1.5s;
         opacity: 0;
     }
     @keyframes part5{
@@ -842,7 +842,7 @@ nav li a.nav-link{
 
     .part-right{
         animation: right 1s ease forwards;
-        animation-delay: 1;
+        animation-delay: 0.5s;
         opacity: 0;
     }
     @keyframes right{
