@@ -13,8 +13,6 @@ function sendEmail(){
       );
 }
 
-
-
 function send(){
   
   document.getElementById("ll").style.display = "none";
@@ -244,3 +242,27 @@ window.onscroll = () =>{
   })
 }
 //autoplay loop muted plays-inline 
+
+
+    // Function to check if an element is in the viewport
+     // Function to check if an element is in the viewport
+     
+  function isInViewport(element) {
+    const rect = element.getBoundingClientRect();
+    return rect.top <= window.innerHeight - 100 && rect.bottom >= 0;
+  }
+
+  // Function to handle scroll event and fade in elements when in view
+  function handleScroll() {
+    const fadeIns = document.querySelectorAll('.fade-in');
+    fadeIns.forEach(element => {
+      if (isInViewport(element)) {
+        element.classList.add('visible');
+      }
+    });
+  }
+
+    // Check visibility on load and on scroll
+    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('load', handleScroll);  // Trigger visibility check on page load
+  

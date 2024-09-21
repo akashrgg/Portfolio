@@ -270,7 +270,12 @@ border-radius: 360px;
     z-index: 3;
     border-radius: 50%;
     overflow: hidden;
-
+    
+}
+.mmmm{
+    transition: 0.3s;
+    animation: slideLeft 1s ease forwards;
+ 
 }
 .contents img{
     position: absolute;
@@ -746,3 +751,124 @@ nav li a.nav-link{
       .txtcl{
        color: #070a1c;
       }
+
+      .fade-in {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    }
+    .visible {
+      opacity: 1;
+      transform: translateY(0);
+    } 
+
+    .part-1{
+        animation: part1 1s ease forwards;
+        animation-delay: 0.2s;
+        opacity: 0;
+    }
+    
+    .part-2{
+        animation: part2 1s ease forwards;
+        animation-delay: 1s;
+        opacity: 0;
+    }
+
+    @keyframes part1{
+        0%{
+            transform: translateY(100px);
+            opacity: 0;
+        }
+        100%{
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    @keyframes part2{
+        0%{
+            transform: translateY(100px);
+            opacity: 0;
+        }
+        100%{
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    .part-3{
+        animation: part3 1s ease forwards;
+        animation-delay: 2s;
+        opacity: 0;
+    }
+    @keyframes part3{
+        0%{
+            transform: translateY(100px);
+            opacity: 0;
+        }
+        100%{
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    .part-4{
+        animation: part4 1s ease forwards;
+        animation-delay: 3s;
+        opacity: 0;
+    }
+    @keyframes part4{
+        0%{
+            transform: translateY(100px);
+            opacity: 0;
+        }
+        100%{
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    .part-5{
+        animation: part5 1s ease forwards;
+        animation-delay: 1s;
+        opacity: 0;
+    }
+    @keyframes part5{
+        0%{
+            transform: translateY(100px);
+            opacity: 0;
+        }
+        100%{
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    .part-right{
+        animation: right 1s ease forwards;
+        animation-delay: 1;
+        opacity: 0;
+    }
+    @keyframes right{
+        0%{
+            transform: translatex(-100px);
+            opacity: 0;
+        }
+        100%{
+            transform: translatex(0);
+            opacity: 1;
+        }
+    }
+    
+    .part-left{
+        animation: left 1s ease forwards;
+        animation-delay: 0.5s;
+        opacity: 0;
+    }
+    @keyframes left{
+        0%{
+            transform: translatex(100px);
+            opacity: 0;
+        }
+        100%{
+            transform: translatex(0);
+            opacity: 1;
+        }
+    }
+    
