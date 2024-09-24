@@ -67,7 +67,7 @@ border-radius: 360px;
     background-size: cover;
 }  
 #contacts{
-    background-image: url(dark1.jpg);  
+    background-image: url(back5.jpg);  
     background-repeat: no-repeat;
     background-size: cover; 
 }
@@ -97,7 +97,7 @@ border-radius: 360px;
     background: linear-gradient(
         45deg, #FF0000, #FF7300, #FFFB00, #48FF00, #00FFD5,
         #002BFF, #FF00C8, #FF0000);
-        background-image: url(back5.jpg);
+        background-image: url(blog5.jpg);
          background-repeat: no-repeat;
            background-size: cover; 
 
@@ -174,7 +174,7 @@ border-radius: 360px;
     content: "";
     position: absolute;
     inset: -10px 140px;
-    background: linear-gradient(315deg, #5f055f, #150346);
+    background: linear-gradient(315deg, #17ace7, #2c9bc7);
     transition: 0.5s;
     animation: animate 4s linear infinite;
 
@@ -234,8 +234,8 @@ border-radius: 360px;
     background: linear-gradient(
         45deg, #0ba9da,
         #15cbd8, #e5e8eb);
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     overflow: hidden;   
 }
 .martops::before{
@@ -730,11 +730,11 @@ form button{
 
 nav li a:hover,
 nav li a.nav-link{
-    color: rgb(58, 206, 206);
+    color: rgb(161, 16, 96);
 }
 
 nav li a.nav-link:hover{
-    color: white;
+    color: black;
 }
 
     @keyframes moveText {
@@ -905,6 +905,9 @@ nav li a.nav-link:hover{
 
 .textsky{
     color: #36aecc;  
+}
+.textskys{
+    color: #8d0861;
 }
 .txtsk{
     background-color: #4dc8e7;;
