@@ -912,3 +912,9 @@ nav li a.nav-link:hover{
 .txtsk{
     background-color: #4dc8e7;;
 }
+.red{
+    background-color: red;
+}
+.redcol{
+    color: #2c9bc7;
+}
