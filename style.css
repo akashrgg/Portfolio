@@ -277,6 +277,7 @@ border-radius: 360px;
     overflow: hidden;
     
 }
+
 .mmmm{
     transition: 0.3s;
     animation: slideLeft 1s ease forwards;
@@ -917,4 +918,9 @@ nav li a.nav-link:hover{
 }
 .redcol{
     color: #2c9bc7;
+}
+.yel{
+   
+   background-color: rgb(17, 150, 190);
+
 }
